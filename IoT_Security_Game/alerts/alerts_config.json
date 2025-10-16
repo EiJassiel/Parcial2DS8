@@ -1,0 +1,49 @@
+{
+  "devices": [
+    {
+      "id": "motion-1",
+      "type": "motion",
+      "motion_rate": 0.12,
+      "alert_rate": 0.08
+    },
+    {
+      "id": "temp-1",
+      "type": "temp",
+      "base_temp": 21.5,
+      "alert_rate": 0.06
+    },
+    {
+      "id": "energy-1",
+      "type": "energy",
+      "base_w": 150,
+      "alert_rate": 0.05
+    },
+    {
+      "id": "rfid-1",
+      "type": "rfid",
+ "seen_rate": 0.08,
+      "alert_rate": 0.04
+    },
+    {
+      "id": "noise-1",
+      "type": "noise",
+      "alert_rate": 0.03
+    },
+    {
+      "id": "cam-1",
+      "type": "camera",
+      "detect_rate": 0.06,
+      "alert_rate": 0.05
+    },
+    {
+      "id": "lock-1",
+      "type": "lock",
+      "alert_rate": 0.02
+    },
+    {
+      "id": "router-1",
+      "type": "router",
+      "alert_rate": 0.01
+    }
+  ]
+}
